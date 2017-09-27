@@ -1,0 +1,16 @@
+/* Foot Imgs */
+
+.reveal img {
+	width: 120px;
+	height: auto;
+	position: absolute;
+	top: 75%;
+}
+
+#hot {
+	left: 50.5%;
+}
+
+#geoinqmad {
+	right: 50.5%;
+}
