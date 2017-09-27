@@ -1,16 +1,62 @@
-/* Foot Imgs */
+/* Images */
 
-.reveal img {
+#intro img {
 	width: 120px;
 	height: auto;
 	position: absolute;
-	top: 75%;
+	top: 90%;
+	border: none;
+	box-shadow: none;
 }
-
-#hot {
+.left {
 	left: 50.5%;
 }
-
-#geoinqmad {
+.right {
 	right: 50.5%;
+}
+
+#geoinq img {
+	width: 220px;
+	height: auto;
+	position: absolute;
+	top: 105%;
+	border: none;
+	box-shadow: none;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#osm img {
+	width: 180px;
+	height: auto;
+	position: absolute;
+	top: 125%;
+	border: none;
+	box-shadow: none;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#hot img {
+	width: 200px;
+	height: auto;
+	position: absolute;
+	top: 125%;
+	border: none;
+	box-shadow: none;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Paragraphs */
+
+.reveal p {
+  font-size: 25px;
+}
+
+.reveal ul li {
+	font-size: 25px;
 }
